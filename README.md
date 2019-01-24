@@ -1,16 +1,33 @@
-# Atomist Homebrew Tap
+# DEPRECATED - Atomist Homebrew Tap
 
-Get started developing with [Atomist][atomist] by using our [Homebrew][brew]
-[tap][] repository to install the [Atomist command-line interface][cli]. 
+Good news, the [Atomist CLI][cli] formula is now available in the
+[Homebrew][brew] core tap!  You can install as you would any core
+Homebrew formula:
 
-[atomist]: https://atomist.com/ (Atomist - How Teams Deliver Software)
-[brew]: https://brew.sh/ (Homebrew - The missing package manager for macOS)
-[tap]: https://github.com/Homebrew/homebrew/tree/master/share/doc/homebrew#readme
+```
+$ brew install atomist-cli
+```
+
 [cli]: https://github.com/atomist/cli (Atomist - CLI)
+[brew]: https://brew.sh/ (Homebrew - The missing package manager for macOS)
 
-## Usage
+You can "untap" this custom tap, it is no longer needed:
 
-```sh
+```
+$ brew untap atomist/tap
+```
+
+## Deprecated tap instructions
+
+```
 $ brew tap atomist/tap
 $ brew install atomist-cli
 ```
+
+---
+
+Created by [Atomist][atomist].
+Need Help?  [Join our Slack workspace][slack].
+
+[atomist]: https://atomist.com/ (Atomist - How Teams Deliver Software)
+[slack]: https://join.atomist.com/ (Atomist Community Slack)
